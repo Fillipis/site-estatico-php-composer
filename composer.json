@@ -13,5 +13,7 @@
             "name": "Fillipis DEV"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.2|^8.3"
+    }
 }
