@@ -1,12 +1,12 @@
 <?php
 
-namespace Model;
+namespace Src\Model;
 
-class MinhaClasse {
+class UsuarioModel {
 
     public function __constructor(string $arg){}
 
     public function getNome(){
-        return "Fillipi DEV PHP";
+        return "Minha Classe";
     }
 }

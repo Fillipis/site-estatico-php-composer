@@ -4,7 +4,8 @@
     "autoload": {
         "psr-4": {
             "Fillipidev\\PhpComposer\\": "src/",
-            "Src\\Model": "src/Model/"
+            "Src\\Model\\": "src/Model/",
+            "Src\\Controller\\": "src/Controller/"
         }
     },
     "authors": [

@@ -2,7 +2,10 @@
 
 require 'vendor/autoload.php';
 
-use Model\MinhaClasse;
+use Src\Model\UsuarioModel;
+$usuario = new UsuarioModel();
+print_r($usuario->getNome());
 
-$class = new MinhaClasse();
-print_r($class->getNome());
+use Src\Controller\UsuarioController;
+$controller = new UsuarioController();
+print_r($controller->getControl());
