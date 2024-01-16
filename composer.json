@@ -1,0 +1,16 @@
+{
+    "name": "fillipidev/php-composer",
+    "description": "Projeto público com estrutura de dependências robustas em PHP com Composer.",
+    "autoload": {
+        "psr-4": {
+            "Fillipidev\\PhpComposer\\": "src/",
+            "Src\\Model": "src/Model/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fillipis DEV"
+        }
+    ],
+    "require": {}
+}
