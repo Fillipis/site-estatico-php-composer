@@ -17,4 +17,4 @@ Projeto público com estrutura de dependências robustas em PHP com Composer.
 | `php -S localhost:8000/php-composer` | Executar o servidor imbutido via terminal para iniciar a aplicação em localhost |
 
 ## resultado
-![Site com composer em PHP:MVC](URL_da_Imagem)
+![Resultado do Site](https://github.com/Fillipis/php-composer/blob/master/img/site_imagem.png)
