@@ -5,7 +5,10 @@
         "psr-4": {
             "Fillipidev\\PhpComposer\\": "src/",
             "Src\\Model\\": "src/Model/",
-            "Src\\Controller\\": "src/Controller/"
+            "Src\\Controller\\": "src/Controller/",
+            "Src\\View\\": "src/View/",
+            "Src\\Public\\": "src/Public/",
+            "Src\\Config\\": "src/Config/"
         }
     },
     "authors": [

@@ -1,0 +1,175 @@
+html {
+    background-color: #232D3F;
+}
+
+::selection {
+    background-color: #02FFAB;
+    color: #232D3F;
+}
+
+.links-svgs {
+    padding: 2rem 2rem;
+    display: flex;
+    gap: 1em;
+}
+
+.flex-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.flex-box.avatar-present {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.flex-box > div.title {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: manual;
+    -moz-hyphens: manual;
+    -webkit-hyphens: manual;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    text-align: left;
+}
+
+.flex-box > div.title h3 {
+    display: inline-block;
+    width: 180px;
+}
+
+.flex-box .title.full-width h3 {
+    width: 100%;
+}
+
+.flex-box > div.avatar.full-width {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./../img/perfil.jpeg);
+}
+
+.flex {
+    background-color: #232D3F;
+    color: #F9F6F2;
+    text-align: left;
+}
+
+.flex h1,.flex h2,.flex h3,.flex h4,.flex h5 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+}
+
+.flex h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.flex h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.flex h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.flex h4 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.flex h5 {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.flex h5.semibold {
+    font-weight: 600;
+}
+
+.flex p {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.flex a {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+.flex a:visited,.flex a:hover,.flex a:active {
+    color: unset;
+}
+
+
+/*centralizando conteudo*/
+.conteudo {
+    max-width: min(601px,100%);
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.conteudo-texto > h5 {
+    color: #F9F6F2;
+}
+
+@media (min-height: 480px), screen and (orientation: portrait) {
+    html {
+        margin: 1em;
+    }
+}
