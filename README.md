@@ -12,12 +12,12 @@ Projeto público com estrutura de dependências robustas em PHP com Composer.
 ## executando a aplicação
 | Comando | Descrição |
 | --- | --- |
-| `Clonar o projeto` | **git clone git@github.com:Fillipis/php-composer.git** |
+| `Clonar o projeto` | *git clone git@github.com:Fillipis/php-composer.git* |
 | `composer install` | Executar o *composer install* para atualizar as dependências |
 | `php -S localhost:8000` | Executar via terminal o servidor imbutido para iniciar a aplicação em localhost |
 | `http://localhost:8000/php-composer` | Cole este link na URL do seu navegado favorido |
 
-## :v::sunglasses: resultado## :v::sunglasses: resultado
+## :v::sunglasses: resultado
 ![Resultado do Site](https://github.com/Fillipis/php-composer/blob/master/img/site_imagem.png)
 
 ## link de emojis para Readme
