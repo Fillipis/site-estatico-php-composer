@@ -3,9 +3,10 @@
 // carregando dependências
 require_once('../../vendor/autoload.php');
 
-use Src\Model\UsuarioModel;
-$usuario = new UsuarioModel();
-$usuario = $usuario->getUsuario();
+// instanciando classes
+use Src\Controller\UsuarioController;
+$usuario = new UsuarioController();
+$usuario = $usuario->getDadosUsuario();
 
 ?><!DOCTYPE html>
 <html lang="pt-BR">
