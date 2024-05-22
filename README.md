@@ -20,5 +20,5 @@ Projeto público com estrutura de dependências robustas em PHP com Composer.
 ## :v::sunglasses: resultado
 ![Resultado do Site](https://github.com/Fillipis/php-composer/blob/master/img/site_imagem.png)
 
-## link de emojis para Readme
-https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+## resultado do site
+https://fillipidev.netlify.app/
